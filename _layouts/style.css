@@ -40,8 +40,8 @@ h1::after {
 	padding-left: 30px;
 }
 .navbar-links img {
-	height: 30px;
-	padding-left: 20px;
+	height: 25px;
+	padding-left: 13px;
 	opacity: 0.5;
 	filter: grayscale(100%);
 }
