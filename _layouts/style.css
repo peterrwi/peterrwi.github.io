@@ -121,7 +121,7 @@ h1::after {
 	background: #333;
 	color: #fff;
 	padding-top: 12px;
-	min-height: 800px;
+	min-height: 10px;
 }
 
 /*-----------Responsive-----------*/
