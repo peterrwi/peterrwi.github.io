@@ -2,45 +2,92 @@
 <section id="research">
   <div class="content-wrap">
     <h1>Research</h1>
+    <h2>Reverberation mapping</h2>
+        <p>
+          Supermassive black holes (BHs) and their host galaxies are fundamentally linked, and their co-evolution may hold the answers to many astrophysical questions, but co-evolutionary studies require precise black hole mass measurements.
+          Mass measurements from the orbits of gas and stars in the BH sphere of influence are only possible in the local universe, so the technique of reverberation mapping is used to measure BH masses in active galactic nuclei (AGNs) at larger distances.
+          Reverberation mapping utilizes the broad emission line region (BLR), a region of gas that is photoionized by continuum radiation and re-emits in the form of emission lines that are broadened due to the doppler effect.
+          By monitoring the AGN spectrum over time, one can observe the broad emission lines vary in response to changes in  continuum fluctuations, but after a time lag dependent on the BLR size.
+          Using the width of the emission line as a proxy for the gas velocity, combined with the time lag, one can measure the black hole mass, up to a scale factor, $f$, of order unity.
+          An average scale factor is typically used, found by calibrating to the local $M-\sigma_*$ relation, but this leads to an uncertainty of ~0.4 dex on individual black hole mass measurements.
+        </p>
+        <p>
+          In my research, I use the code <a href="https://annapancoast.wordpress.com/caramel/" target="_blank">CARAMEL</a> to model the BLR region directly.
+          By modeling the BLR, we can measure black hole masses without any assumptions of a scale factor value.
+          Using this method, we can measure black hole masses with an uncertainty of only ~0.2 dex, while also learning about the geometry and dynamics of the broad line emitting gas.
+        </p>
+
+    <article class="research-grid img-left">
+      <figure class="researchimage">
+        <img src="img/vrlags.png">
+      </figure>
+      <div class="research-content">
+        <h4>A once in a lifetime opportunity</h4>
+        <p>
+          Reverberation mapping measurements in the distant universe are extraordinarily difficult due to the bright sources required, cosmological time dilation, and a number of other factors.
+          Gravitational lensing, resulting from the chance alignment of an AGN with a foreground massive object, can solve all of these issues simultaneously.
+          In June 2016, we embarked on a multi-year monitoring campaign of the sextuply imaged quasar SDSS J2222+2745, lensed by a foreground galaxy cluster.
+          The lensing time delays and magnifications along with the extreme variability of the quasar offered a unique opportunity to make a black hole mass measurement at $z=2.805$ (~2 billion years after the Big Bang).
+          In <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...866...75W">Williams et al. 2021a</a>, I presented velocity-resolved lag measurements for the CIV BLR, and I will present BLR modeling results in Williams et al. 2021b, in prep.
+        </p>
+      </div>
+    </article>
+
+    <article class="research-grid img-right">
+      <div class="research-content">
+        <h4>A first measurement of the UV broad line region</h4>
+        <p>
+          The <a href="https://archive.stsci.edu/hlsp/storm" target="_blank">AGN Space Telescope and Optical Reverberation Mapping (AGN STORM)</a> campaign monitored NGC 5548 using both ground- and space-based telescopes.
+          The spectra spanned X-ray to optical wavelengths, enabling measurements of both the high- and low-energy BLRs.
+          In <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...902...74W">Williams et al. 2020</a>, I presented the modeling results for the CIV, Ly$\alpha$, and H$\beta$ BLRs.
+          This was the first AGN for which we could model multiple emission lines as well as the first modeling results for the UV-emitting BLR.
+        </p>
+        <p>
+          We found that all three BLRs can be described by inclined thick disks, but the CIV and Ly$\alpha$ BLRs are more concentrated in shell-like structures (green and orange to the right).
+          We also found radial stratification of the BLR, with the UV BLRs at smaller radii than the H$\beta$ BLR.
+        </p>
+      </div>
+      <figure class="researchimage">
+        <img src="img/agnstorm.png">
+      </figure>
+    </article>
+
     <article class="research-grid img-left">
       <figure class="researchimage">
         <img src="img/geometries.png">
       </figure>
       <div class="research-content">
-        <h2>Reverberation mapping</h2>
+        <h4>Lick AGN Monitoring Project</h4>
         <p>
-          The tight correlations observed between supermassive black hole masses and their host galaxy properties may hold the answers to many astrophysical questions, but these analyses require precise black hole mass measurements.
-          Mass measurements from the orbits of gas and stars in the BH sphere of influence are only possible in the local universe, so the technique of reverberation mapping is used to measure BH masses in AGN at larger distances.
-          Reverberation mapping utilizes the broad emission line region, a region of gas that is photoionized by continuum radiation and re-emits in the form of emission lines that are broadened due to the doppler effect.
-          By monitoring the AGN spectrum over time, one can observe the broad emission lines vary in response to changes in  continuum fluctuations, but after a time-lag.
-          Using the width of the emission line as a proxy for the gas velocity, combined with the time-lag, one can measure the black hole mass, up to a scale factor of order unity.
-          An average scale factor is typically used, found by calibrating to the local M-sigma relation, but this leads to an uncertainty of ~0.4 dex on individual black hole mass measurements.
+          The <a href="https://www.physics.uci.edu/~barth/lamp.html" target="_blank">Lick AGN Monitoring Project (LAMP)</a> is a series of reverberation mapping campaigns conducted at Lick Observatory targeting the broad H$\beta$ emission line.
+          In <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...866...75W">Williams et al. 2018b</a>, I presented the modeling results for seven of the AGNs in the LAMP 2011 sample.
+          The results suggest thick disk BLRs, which is consistent with the previous H$\beta$ modeling results of <a href="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3073P">Pancoast et al. 2014</a> and <a href="https://ui.adsabs.harvard.edu/abs/2017ApJ...849..146G">Grier et al. 2017</a>.
+          I also explored possible correlations between various BLR and AGN properties and the scale factor $f$ used in traditional reverberation mapping campaigns.
+          The existence of a correlation has the potential to improve virtually all $M_{\rm BH}$ measurements, not only those with data sufficient for BLR modeling.
         </p>
-        <p>
-          In my research, I use the code <a href="https://annapancoast.wordpress.com/caramel/" target="_blank">CARAMEL</a> to model the broad emission line region directly.
-          By modeling the BLR, we can measure black hole masses without any assumptions of a scale factor value.
-          Using this method, we can measure black hole masses with an uncertainty of only ~0.2 dex, while also learning about the geometry and dynamics of the broad line emitting gas.
-          The modeling results for seven AGN in the the Lick AGN Monitoring Project 2011 sample are presented by <a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...866...75W">Williams et al. 2018b</a>.
-        </p>  
       </div>
     </article>
+
+    <h2>Lensed quasar hunting</h2>
+    <p>
+      The phenomenon of gravitational lensing occurs when a massive object falls along our line of sight to a more distant light source.
+      Since gravity can deflect light, the image of the distant source gets distorted as it makes its way to our telescopes.
+      A special case of this is strong gravitational lensing when a bright, distant quasar is lensed by a foreground massive galaxy, resulting in multiple magnified images of the same quasar.
+      Quasars are some of the brightest objects in the universe, and when they are lensed, they serve as phenomenal tools for studying a wide range of the Universe's life.
+      However, the unique alignment required makes these objects very rare on the night sky, and current progress is limited by the small number of known lenses.
+    </p>
     <article class="research-grid img-left">
       <figure>
         <img src="img/confirmedlenses.png">
       </figure>
       <div class="research-content">
-        <h2>Lensed quasar hunting</h2>
-        <p>
-          The phenomenon of gravitational lensing occurs when a massive object falls along our line of sight to a more distant light source.
-          Since gravity can deflect light, the image of the distant source gets distorted as it makes its way to our telescopes.
-          A special case of this is strong gravitational lensing when a bright, distant quasar is lensed by a foreground massive galaxy, resulting in multiple magnified images of the same quasar.
-          Quasars are some of the brightest objects in the universe, and when they are lensed, they serve as phenomenal tools for studying a wide range of the univere's life.
-          However, the unique alignment required makes these objects very rare on the night sky, and current progress is limited by the small number of known lenses.
-        </p>
+        <h4>A needle in a haystack</h4>
         <p>
           Modern wide-field surveys with images of billions of night-sky objects should contain many new lenses for discovery, but finding them is a classic needle-in-a-haystack problem.
           In my research, I use gaussian mixture models to conduct photometry-based searches for lenses using data from the Sloan Digital Sky Survey (SDSS), the Wide-field Infrared Survey Explorer (WISE), and the VLT Survey Telescope (VST) ATLAS. 
-          The search methods are discussed by <a href="http://ui.adsabs.harvard.edu/abs/2017MNRAS.466.3088W">Williams et al. 2017</a>, and the results of the follow-up campaign are given by <a href="http://ui.adsabs.harvard.edu/abs/2018MNRAS.477L..70W">Williams et al. 2018a</a>, including the discovery of three new lenses.
+          In <a href="http://ui.adsabs.harvard.edu/abs/2017MNRAS.466.3088W">Williams et al. 2017</a>, I discuss the search methodology and provide a list of lens candidates selected from the SDSS.
+          In <a href="http://ui.adsabs.harvard.edu/abs/2018MNRAS.477L..70W">Williams et al. 2018a</a>, I describe the follow-up campaign, consisting of adaptive-optics (AO) assisted imaging and spectroscopy.
+          The follow-up yielded three new lenses, shown to the left.
         </p>
       </div>
     </article>
